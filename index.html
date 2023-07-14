@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MSI</title>
+    <link rel="icon" href="./images/favicon.ico" />
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/topbox.css" />
+
+    <!-- INTERNAL CSS -->
+    <style>
+      body {
+        background-color: blueviolet;
+      }
+    </style>
+
+    <!-- EXTERNAL CSS -->
+  </head>
+  <!-- Inline CSS -->
+  <body>
+    <div>
+      <a href="#gender-section">Go to Gender Section</a>
+
+      <div>
+        <img src="images/banner.png" alt="banner pic" class="banner" />
+      </div>
+
+      <!-- <div style="height: 500px"></div> -->
+      <img src="images/facebook-logo.png" alt="" class="facebook" />
+
+      <h1 style="color: blue">
+        <strong>Mandalay Software Institute</strong>
+      </h1>
+      <p>
+        <i><strong>Jump-start your developer life here!</strong></i>
+      </p>
+      <p>
+        <b>အခြေခံကျကျ စနစ်တကျ သင်ကြားပေးနေသော ပရိုဂရမ်းမင်းသင်တန်းကျောင်း</b>
+      </p>
+
+      <hr />
+
+      <img
+        src="./images/f.png"
+        alt="facebook logo"
+        class="social-icon my-custom-border"
+      />
+      <img src="./images/twitter.png" alt="facebook logo" class="social-icon" />
+      <img
+        src="./images/linkedin.png"
+        alt="facebook logo"
+        class="social-icon"
+      />
+
+      <a href="https://apple.com">Apple</a>
+
+      <h1 style="color: red" id="course-header" class="course-title">
+        Courses
+      </h1>
+
+      <table border="3" bgcolor="#0xff00" cellpadding="10">
+        <tr>
+          <th>No.</th>
+          <th>Course Name</th>
+          <th>Fees</th>
+          <th>Duration</th>
+        </tr>
+
+        <tr>
+          <td>1</td>
+          <td>Programming Basics</td>
+          <td>150,000</td>
+          <td>1 Month</td>
+        </tr>
+
+        <tr>
+          <td>1</td>
+          <td>HTML</td>
+          <td>150,000</td>
+          <td>1 Month</td>
+        </tr>
+      </table>
+
+      <form action="action.js" method="post">
+        <label for="name">Name :</label>
+        <input type="text" id="name" name="name" /> <br />
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" /> <br />
+
+        <!-- RADIOBUTTON -->
+        <h3 id="gender-section">Choose Gender</h3>
+
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+
+        <input type="radio" id="rather" name="gender" value="rather" />
+        <label for="rather">Rather not to say</label>
+
+        <br />
+
+        <!-- CHECKBOX -->
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+        <label for="vehicle1"> I have a bike</label><br />
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+        <label for="vehicle2"> I have a car</label><br />
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+        <label for="vehicle3"> I have a boat</label><br />
+
+        <input type="radio" id="html" name="fav_language" value="HTML" />
+        <label for="html">HTML</label><br />
+        <input type="radio" id="css" name="fav_language" value="CSS" />
+        <label for="css">CSS</label><br />
+        <input
+          type="radio"
+          id="javascript"
+          name="fav_language"
+          value="JavaScript"
+        />
+        <label for="javascript">JavaScript</label>
+
+        <br />
+
+        <label for="phone">Phone :</label>
+        <input type="number" id="phone" name="phone" /> <br />
+
+        <label for="course">Course :</label>
+        <input type="text" id="course" name="course" /> <br />
+
+        <label for="course">Password :</label>
+        <input type="password" id="password" name="password" />
+
+        <br />
+        <br />
+
+        <button type="reset">Cancel</button>
+        <button type="submit">Register</button>
+      </form>
+
+      <div>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/LI_rjjiYDpw"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  </body>
+</html>

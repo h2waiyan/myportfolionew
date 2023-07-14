@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(144, 191, 34);
+}
+
+h1 {
+  color: rgb(159, 159, 222);
+  /* font-size: 0.5em; */
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: 100;
+}
+
+hr {
+  border-style: dashed;
+  height: 100px;
+  /* height: 100px; */
+}
+
+img {
+  height: 250px;
+  width: 358px;
+  border: 1px red;
+}
+
+.banner {
+  border-style: dashed;
+}
+
+.social-icon {
+  height: 250px;
+  width: 250px;
+}
+
+.my-custom-border {
+  border-style: dotted;
+  border: white 1px solid;
+}
+
+#course-header {
+  color: blue;
+}
+
+.course-title {
+  color: yellow;
+}
